@@ -1,15 +1,12 @@
-package com.nuc.inpiration.activity;
+package com.nuc.inpiration.inpiration;
 
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import inspiration.nuc.com.inspiration.R;
 
-/**
- * Created by 李柱 on 2017/1/10.
- */
+public class MainActivity extends AppCompatActivity {
 
-public class Login extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
